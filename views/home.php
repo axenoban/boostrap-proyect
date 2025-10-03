@@ -147,7 +147,7 @@
                        </li>
                    </ul>
                    <div class="d-flex flex-wrap gap-2">
-                       <a href="index.php?page=cliente-login" class="btn btn-light text-primary-dark fw-semibold">Ingresar al portal</a>
+                       <a href="index.php?page=client-login" class="btn btn-light text-primary-dark fw-semibold">Ingresar al portal</a>
                        <a href="index.php?page=contact" class="btn btn-outline-light text-white">Solicitar acceso</a>
                    </div>
                </div>
