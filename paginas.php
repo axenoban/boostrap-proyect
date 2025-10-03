@@ -12,5 +12,6 @@ return [
     'productos' => [PageController::class, 'products'],
     'contact' => [PageController::class, 'contact'],
     'contacto' => [PageController::class, 'contact'],
+    'client-login' => [PageController::class, 'clientLogin'],
     'cliente-login' => [PageController::class, 'clientLogin'],
 ];
