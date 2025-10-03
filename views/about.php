@@ -6,7 +6,7 @@
     </div>
 </section>
 
-<section class="py-5" data-aos="fade-up">
+<section class="section-padding" data-aos="fade-up">
     <div class="container">
         <div class="row align-items-center mb-5">
             <div class="col-md-6" data-aos="fade-right">

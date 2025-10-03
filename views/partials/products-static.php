@@ -1,5 +1,5 @@
 
-<section id="naturales" class="py-5 bg-light-gray" data-aos="fade-up">
+<section id="naturales" class="section-padding bg-light-gray" data-aos="fade-up">
     <div class="container">
         <h2 class="text-center display-5 fw-bold mb-5 text-primary-dark">Fibras Naturales</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -37,7 +37,7 @@
     </div>
 </section>
 
-<section id="sinteticos" class="py-5" data-aos="fade-up">
+<section id="sinteticos" class="section-padding" data-aos="fade-up">
     <div class="container">
         <h2 class="text-center display-5 fw-bold mb-5 text-primary-dark">Sintéticos y Mezclas</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -75,7 +75,7 @@
     </div>
 </section>
 
-<section id="especiales" class="py-5 bg-light-gray" data-aos="fade-up">
+<section id="especiales" class="section-padding bg-light-gray" data-aos="fade-up">
     <div class="container">
         <h2 class="text-center display-5 fw-bold mb-5 text-primary-dark">Tejidos Especiales</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">

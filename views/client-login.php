@@ -5,7 +5,7 @@
     </div>
 </section>
 
-<section class="py-5">
+<section class="section-padding">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-5" data-aos="fade-up">
