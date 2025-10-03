@@ -58,6 +58,24 @@ class PageController
         );
     }
 
+    public static function clientDashboard(): array
+    {
+        return self::makeResponse(
+            'client-dashboard.php',
+            'Panel de Cliente - Importadora Textil Camila',
+            'client-dashboard'
+        );
+    }
+
+    public static function adminDashboard(): array
+    {
+        return self::makeResponse(
+            'admin-dashboard.php',
+            'Panel Administrativo - Importadora Textil Camila',
+            'admin-dashboard'
+        );
+    }
+
     public static function notFound(): array
     {
         return [

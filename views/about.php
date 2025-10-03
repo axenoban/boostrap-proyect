@@ -1,5 +1,4 @@
-
-<section class="hero-subpage d-flex align-items-center justify-content-center text-white" style="background-image: url('assets/images/extra/importacion-directa.jpg');" data-aos="fade-in">
+<section class="hero-subpage d-flex align-items-center justify-content-center text-white" style="background-image: url('https://images.unsplash.com/photo-1529421308012-6e22f315cfd0?auto=format&fit=crop&w=1600&q=80');" data-aos="fade-in">
     <div class="container text-center">
         <h1 class="display-3 fw-bold mb-3" data-aos="fade-up" data-aos-delay="100">Sobre Nosotros</h1>
         <p class="lead" data-aos="fade-up" data-aos-delay="200">Comprometidos con la excelencia y la innovación en cada fibra.</p>
@@ -10,29 +9,29 @@
     <div class="container">
         <div class="row align-items-center mb-5">
             <div class="col-md-6" data-aos="fade-right">
-                <img src="assets/images/extra/1.jpg" class="img-fluid rounded shadow-lg" alt="Nuestra Misión">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" class="img-fluid rounded shadow-lg" alt="Nuestra misión">
             </div>
             <div class="col-md-6 mt-4 mt-md-0" data-aos="fade-left">
-                <h2 class="display-6 fw-bold text-primary-dark mb-4">Nuestra Misión</h2>
+                <h2 class="display-6 fw-bold text-primary-dark mb-4">Nuestra misión</h2>
                 <p class="lead text-secondary-dark">Ser el proveedor líder de textiles importados en Bolivia, ofreciendo una diversidad inigualable y la más alta calidad, mientras construimos relaciones duraderas y de confianza con nuestros clientes.</p>
-                <p class="text-secondary-dark">Nos dedicamos a impulsar el éxito de la industria textil local, proporcionando materiales que no solo cumplen, sino que superan las expectativas de diseño y rendimiento.</p>
+                <p class="text-secondary-dark">Nos dedicamos a impulsar el éxito de la industria textil local, proporcionando materiales que superan las expectativas de diseño y rendimiento.</p>
             </div>
         </div>
 
         <div class="row align-items-center flex-row-reverse mb-5">
             <div class="col-md-6" data-aos="fade-left">
-                <img src="assets/images/extra/2.jpg" class="img-fluid rounded shadow-lg" alt="Nuestra Visión">
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80" class="img-fluid rounded shadow-lg" alt="Nuestra visión">
             </div>
             <div class="col-md-6 mt-4 mt-md-0" data-aos="fade-right">
-                <h2 class="display-6 fw-bold text-primary-dark mb-4">Nuestra Visión</h2>
-                <p class="lead text-secondary-dark">Visualizamos un futuro donde Importadora Textil Camila es sinónimo de innovación y calidad en el sector textil boliviano. Aspiramos a ser el referente para diseñadores, fabricantes y emprendedores, facilitando el acceso a tendencias globales y materiales sostenibles.</p>
-                <p class="text-secondary-dark">Nuestro compromiso es ser un motor de cambio, promoviendo prácticas responsables y un crecimiento continuo en la industria.</p>
+                <h2 class="display-6 fw-bold text-primary-dark mb-4">Nuestra visión</h2>
+                <p class="lead text-secondary-dark">Visualizamos un futuro donde Importadora Textil Camila es sinónimo de innovación y calidad en el sector textil boliviano.</p>
+                <p class="text-secondary-dark">Aspiramos a ser el referente para diseñadores, fabricantes y emprendedores, facilitando el acceso a tendencias globales y materiales sostenibles.</p>
             </div>
         </div>
 
         <div class="row mb-5">
             <div class="col-12 text-center" data-aos="fade-up">
-                <h2 class="display-6 fw-bold text-primary-dark mb-4">Nuestros Valores Fundamentales</h2>
+                <h2 class="display-6 fw-bold text-primary-dark mb-4">Nuestros valores fundamentales</h2>
                 <p class="text-secondary-dark mb-5">Estos principios son la base de todo lo que hacemos, desde la selección de proveedores hasta la atención al cliente.</p>
             </div>
             <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">

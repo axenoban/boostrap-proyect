@@ -1,5 +1,4 @@
-
-<section class="hero-subpage d-flex align-items-center justify-content-center text-white" style="background-image: url('assets/images/extra/diseños-exclusivos.jpg');" data-aos="fade-in">
+<section class="hero-subpage d-flex align-items-center justify-content-center text-white" style="background-image: url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1600&q=80');" data-aos="fade-in">
     <div class="container text-center py-5">
         <h1 class="display-3 fw-bold mb-3" data-aos="fade-up" data-aos-delay="100">Hablemos de tu proyecto</h1>
         <p class="lead" data-aos="fade-up" data-aos-delay="200">Estamos listos para ayudarte a encontrar los textiles ideales para tu negocio.</p>

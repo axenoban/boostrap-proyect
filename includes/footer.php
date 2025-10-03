@@ -1,4 +1,3 @@
-
 </main>
 <footer class="bg-dark text-white py-5 mt-5">
     <div class="container">
@@ -6,7 +5,7 @@
             <div class="col-md-4 mb-4 text-center text-md-start" data-aos="fade-up">
                 <h5 class="text-accent mb-3">Importadora Textil Camila</h5>
                 <p class="text-secondary-light">Tu socio de confianza en la importación de textiles de alta calidad para la industria boliviana.</p>
-                <img src="assets/images/logo/3.png" alt="Logo Camila Footer" height="70" class="mt-3">
+                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=240&q=80" alt="Logo Camila Footer" height="72" class="mt-3 rounded-circle border border-2 border-accent">
             </div>
             <div class="col-md-4 mb-4 text-center text-md-start" data-aos="fade-up" data-aos-delay="100">
                 <h5 class="text-accent mb-3">Navegación</h5>
@@ -15,6 +14,8 @@
                     <li><a href="index.php?page=about" class="text-secondary-light text-decoration-none hover-accent">Nosotros</a></li>
                     <li><a href="index.php?page=products" class="text-secondary-light text-decoration-none hover-accent">Productos</a></li>
                     <li><a href="index.php?page=contact" class="text-secondary-light text-decoration-none hover-accent">Contacto</a></li>
+                    <li><a href="index.php?page=panel-admin" class="text-secondary-light text-decoration-none hover-accent">Panel Administrativo</a></li>
+                    <li><a href="index.php?page=panel-cliente" class="text-secondary-light text-decoration-none hover-accent">Panel de Cliente</a></li>
                 </ul>
             </div>
             <div class="col-md-4 mb-4 text-center text-md-start" data-aos="fade-up" data-aos-delay="200">

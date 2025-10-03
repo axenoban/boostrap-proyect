@@ -1,4 +1,3 @@
-
 <?php
 
 require_once __DIR__ . '/controllers/PageController.php';
@@ -13,4 +12,6 @@ return [
     'contact' => [PageController::class, 'contact'],
     'contacto' => [PageController::class, 'contact'],
     'cliente-login' => [PageController::class, 'clientLogin'],
+    'panel-cliente' => [PageController::class, 'clientDashboard'],
+    'panel-admin' => [PageController::class, 'adminDashboard'],
 ];

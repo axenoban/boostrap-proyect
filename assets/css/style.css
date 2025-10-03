@@ -67,6 +67,9 @@ h1, h2, h3, h4, h5, h6 {
 .text-secondary-light { color: var(--secondary-light) !important; }
 .text-accent { color: var(--accent-color) !important; }
 .text-white { color: var(--white) !important; }
+.bg-accent { background-color: var(--accent-color) !important; color: var(--white) !important; }
+.border-accent { border-color: var(--accent-color) !important; }
+.badge.bg-accent { color: var(--white) !important; }
 
 /* Fondos personalizados */
 .bg-primary-dark { background-color: var(--primary-dark) !important; }

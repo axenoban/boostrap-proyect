@@ -1,4 +1,4 @@
-<section class="hero-subpage d-flex align-items-center justify-content-center text-white" style="background-image: url('assets/images/extra/tela-premium.jpg');" data-aos="fade-in">
+<section class="hero-subpage d-flex align-items-center justify-content-center text-white" style="background-image: url('https://images.unsplash.com/photo-1511556820780-d912e42b4980?auto=format&fit=crop&w=1600&q=80');" data-aos="fade-in">
     <div class="container text-center py-5">
         <h1 class="display-3 fw-bold mb-3" data-aos="fade-up" data-aos-delay="100">Portal de Clientes</h1>
         <p class="lead" data-aos="fade-up" data-aos-delay="200">Accede a tus reservas, pedidos y documentos desde cualquier dispositivo.</p>
