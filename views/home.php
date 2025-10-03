@@ -9,6 +9,11 @@
        <div class="carousel-item active">
            <img src="assets/images/banner/1.png" class="d-block w-100 hero-img" alt="Telas Finas y Elegantes">
            <div class="carousel-caption d-flex flex-column justify-content-center h-100" data-aos="fade-up" data-aos-delay="300">
+               <div class="hero-badges">
+                   <span class="hero-badge"><i class="fas fa-certificate me-2"></i>Textiles certificados</span>
+                   <span class="hero-badge"><i class="fas fa-globe me-2"></i>Importación directa</span>
+                   <span class="hero-badge"><i class="fas fa-warehouse me-2"></i>Stock inmediato</span>
+               </div>
                <h5 class="display-4 fw-bold text-uppercase">La Calidad Textil que tu Negocio Mereces</h5>
                <p class="lead d-none d-md-block">Importamos las mejores telas del mundo, directamente a Santa Cruz, Bolivia.</p>
                <a href="index.php?page=products" class="btn btn-accent btn-lg mt-3">Explorar Productos <i class="fas fa-arrow-right ms-2"></i></a>
@@ -17,6 +22,10 @@
        <div class="carousel-item">
            <img src="assets/images/banner/2.png" class="d-block w-100 hero-img" alt="Importación Directa de Telas">
            <div class="carousel-caption d-flex flex-column justify-content-center h-100" data-aos="fade-up" data-aos-delay="300">
+               <div class="hero-badges">
+                   <span class="hero-badge"><i class="fas fa-lightbulb me-2"></i>Tendencias globales</span>
+                   <span class="hero-badge"><i class="fas fa-headset me-2"></i>Asesoría especializada</span>
+               </div>
                <h5 class="display-4 fw-bold text-uppercase">Soluciones Textiles para Cada Proyecto</h5>
                <p class="lead d-none d-md-block">Desde la moda hasta la decoración, la tela perfecta te espera.</p>
                <a href="index.php?page=contact" class="btn btn-accent btn-lg mt-3">Contáctanos Hoy <i class="fas fa-envelope ms-2"></i></a>
@@ -25,6 +34,10 @@
        <div class="carousel-item">
            <img src="assets/images/banner/3.png" class="d-block w-100 hero-img" alt="Variedad de Telas y Diseños">
            <div class="carousel-caption d-flex flex-column justify-content-center h-100" data-aos="fade-up" data-aos-delay="300">
+               <div class="hero-badges">
+                   <span class="hero-badge"><i class="fas fa-seedling me-2"></i>Materiales sostenibles</span>
+                   <span class="hero-badge"><i class="fas fa-gem me-2"></i>Acabados premium</span>
+               </div>
                <h5 class="display-4 fw-bold text-uppercase">Innovación y Tendencia en Cada Fibra</h5>
                <p class="lead d-none d-md-block">Siempre un paso adelante en el mundo de los textiles.</p>
                <a href="index.php?page=about" class="btn btn-accent btn-lg mt-3">Conoce Nuestra Historia <i class="fas fa-info-circle ms-2"></i></a>
@@ -41,7 +54,7 @@
    </button>
 </div>
 
-<section class="py-5 bg-light-gray" data-aos="fade-up">
+<section class="section-padding bg-light-gray" data-aos="fade-up">
    <div class="container">
        <h2 class="text-center display-5 fw-bold mb-4 text-primary-dark">Bienvenido a Importadora Textil Camila</h2>
        <p class="lead text-center mb-5 text-secondary-dark">Somos líderes en la importación y distribución de textiles de alta calidad en Santa Cruz, Bolivia. Nos comprometemos a ofrecer una gama excepcional de tejidos para la confección, decoración y usos industriales, garantizando siempre la excelencia y la satisfacción del cliente.</p>
@@ -72,14 +85,14 @@
    </div>
 </section>
 
-<section class="py-5" data-aos="fade-up">
+<section class="section-padding" data-aos="fade-up">
    <div class="container">
        <h2 class="text-center display-5 fw-bold mb-4 text-primary-dark">Nuestras Soluciones Textiles</h2>
        <p class="text-center mb-5 text-secondary-dark">Ofrecemos una vasta selección de telas para diversas aplicaciones, garantizando el material perfecto para tus necesidades.</p>
 
        <div class="row row-cols-1 row-cols-md-3 g-4">
            <div class="col" data-aos="fade-up" data-aos-delay="100">
-               <div class="card h-100 border-0 shadow-lg text-center">
+               <div class="card lifted-card h-100 border-0 shadow-lg text-center">
                    <img src="assets/images/categorias/1.png" class="card-img-top card-img-hover" alt="Telas para Moda">
                    <div class="card-body">
                        <h5 class="card-title fw-bold text-primary-dark">Telas para Moda y Confección</h5>
@@ -89,7 +102,7 @@
                </div>
            </div>
            <div class="col" data-aos="fade-up" data-aos-delay="200">
-               <div class="card h-100 border-0 shadow-lg text-center">
+               <div class="card lifted-card h-100 border-0 shadow-lg text-center">
                    <img src="assets/images/categorias/2.png" class="card-img-top card-img-hover" alt="Telas para Hogar">
                    <div class="card-body">
                        <h5 class="card-title fw-bold text-primary-dark">Telas para Hogar y Decoración</h5>
@@ -99,7 +112,7 @@
                </div>
            </div>
            <div class="col" data-aos="fade-up" data-aos-delay="300">
-               <div class="card h-100 border-0 shadow-lg text-center">
+               <div class="card lifted-card h-100 border-0 shadow-lg text-center">
                    <img src="assets/images/categorias/3.png" class="card-img-top card-img-hover" alt="Telas Industriales">
                    <div class="card-body">
                        <h5 class="card-title fw-bold text-primary-dark">Telas Técnicas e Industriales</h5>
@@ -112,29 +125,31 @@
    </div>
 </section>
 
-<section class="py-5 bg-light-gray" data-aos="fade-up">
+<section class="section-padding bg-light-gray" data-aos="fade-up">
    <div class="container">
-       <div class="row g-4 align-items-center">
+        <div class="row g-4 align-items-center">
            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-               <h2 class="display-5 fw-bold text-primary-dark mb-3">Portal exclusivo para clientes</h2>
-               <p class="text-secondary-dark mb-4">Reserva telas en tiempo real, consulta el estado de tus pedidos y descarga tus comprobantes desde cualquier dispositivo. Digitalizamos la experiencia para que tu negocio textil sea más ágil y seguro.</p>
-               <ul class="list-unstyled mb-4">
-                   <li class="d-flex gap-3 mb-2">
-                       <i class="fas fa-calendar-check text-accent mt-1"></i>
-                       <span>Disponibilidad actualizada al instante y bloqueo de rollos desde la web.</span>
-                   </li>
-                   <li class="d-flex gap-3 mb-2">
-                       <i class="fas fa-boxes-stacked text-accent mt-1"></i>
-                       <span>Controla tu inventario reservado y repite compras con un solo clic.</span>
-                   </li>
-                   <li class="d-flex gap-3">
-                       <i class="fas fa-file-invoice-dollar text-accent mt-1"></i>
-                       <span>Acceso a facturas y notas de venta sin esperar confirmaciones manuales.</span>
-                   </li>
-               </ul>
-               <div class="d-flex flex-wrap gap-2">
-                   <a href="index.php?page=cliente-login" class="btn btn-accent">Ingresar al portal</a>
-                   <a href="index.php?page=contact" class="btn btn-outline-accent">Solicitar acceso</a>
+               <div class="bg-gradient-primary text-soft-white rounded-4 shadow-lg p-4 p-lg-5 h-100">
+                   <h2 class="display-5 fw-bold text-white mb-3">Portal exclusivo para clientes</h2>
+                   <p class="mb-4">Reserva telas en tiempo real, consulta el estado de tus pedidos y descarga tus comprobantes desde cualquier dispositivo. Digitalizamos la experiencia para que tu negocio textil sea más ágil y seguro.</p>
+                   <ul class="list-unstyled mb-4">
+                       <li class="d-flex gap-3 mb-2 align-items-start">
+                           <i class="fas fa-calendar-check text-accent mt-1"></i>
+                           <span class="text-soft-white">Disponibilidad actualizada al instante y bloqueo de rollos desde la web.</span>
+                       </li>
+                       <li class="d-flex gap-3 mb-2 align-items-start">
+                           <i class="fas fa-boxes-stacked text-accent mt-1"></i>
+                           <span class="text-soft-white">Controla tu inventario reservado y repite compras con un solo clic.</span>
+                       </li>
+                       <li class="d-flex gap-3 align-items-start">
+                           <i class="fas fa-file-invoice-dollar text-accent mt-1"></i>
+                           <span class="text-soft-white">Acceso a facturas y notas de venta sin esperar confirmaciones manuales.</span>
+                       </li>
+                   </ul>
+                   <div class="d-flex flex-wrap gap-2">
+                       <a href="index.php?page=cliente-login" class="btn btn-light text-primary-dark fw-semibold">Ingresar al portal</a>
+                       <a href="index.php?page=contact" class="btn btn-outline-light text-white">Solicitar acceso</a>
+                   </div>
                </div>
            </div>
            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
@@ -146,7 +161,7 @@
    </div>
 </section>
 
-<section class="py-5 bg-cta text-white text-center" data-aos="zoom-in">
+<section class="section-padding bg-cta text-white text-center" data-aos="zoom-in">
    <div class="container">
        <h2 class="display-4 fw-bold mb-4">¿Listo para Impulsar tu Negocio Textil?</h2>
        <p class="lead mb-4">En Importadora Textil Camila, estamos preparados para ser tu aliado estratégico. Contáctanos para asesoría personalizada y descubre cómo nuestra calidad puede beneficiarte.</p>
