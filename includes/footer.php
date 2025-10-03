@@ -1,37 +1,59 @@
+<?php
+use App\Support\Config;
 
+$company = Config::get('company');
+$navigation = Config::get('navigation');
+
+if (!function_exists('nav_url')) {
+    function nav_url(string $route): string
+    {
+        return $route === 'home' ? 'index.php' : 'index.php?page=' . urlencode($route);
+    }
+}
+?>
 </main>
-<footer class="bg-dark text-white py-5 mt-5">
+<footer class="site-footer text-white py-5 mt-5">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 mb-4 text-center text-md-start" data-aos="fade-up">
-                <h5 class="text-accent mb-3">Importadora Textil Camila</h5>
-                <p class="text-secondary-light">Tu socio de confianza en la importación de textiles de alta calidad para la industria boliviana.</p>
-                <img src="assets/images/logo/3.png" alt="Logo Camila Footer" height="70" class="mt-3">
-            </div>
-            <div class="col-md-4 mb-4 text-center text-md-start" data-aos="fade-up" data-aos-delay="100">
-                <h5 class="text-accent mb-3">Navegación</h5>
-                <ul class="list-unstyled">
-                    <li><a href="index.php" class="text-secondary-light text-decoration-none hover-accent">Inicio</a></li>
-                    <li><a href="index.php?page=about" class="text-secondary-light text-decoration-none hover-accent">Nosotros</a></li>
-                    <li><a href="index.php?page=products" class="text-secondary-light text-decoration-none hover-accent">Productos</a></li>
-                    <li><a href="index.php?page=contact" class="text-secondary-light text-decoration-none hover-accent">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4 mb-4 text-center text-md-start" data-aos="fade-up" data-aos-delay="200">
-                <h5 class="text-accent mb-3">Contáctanos</h5>
-                <p class="text-secondary-light"><i class="fas fa-map-marker-alt me-2"></i>Av. Monseñor Rivero #234, Santa Cruz, Bolivia</p>
-                <p class="text-secondary-light"><i class="fas fa-phone-alt me-2"></i>591 3 322 XXXX</p>
-                <p class="text-secondary-light"><i class="fas fa-envelope me-2"></i>info@importadoracamilasc.com</p>
-                <div class="social-icons mt-3">
-                    <a href="#" class="text-secondary-light me-3 hover-accent"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="text-secondary-light me-3 hover-accent"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="text-secondary-light hover-accent"><i class="fab fa-whatsapp"></i></a>
+        <div class="row g-4">
+            <div class="col-lg-4" data-aos="fade-up">
+                <h5 class="text-accent mb-3"><?= htmlspecialchars($company['name'], ENT_QUOTES, 'UTF-8'); ?></h5>
+                <p class="text-white-50"><?= htmlspecialchars($company['tagline'], ENT_QUOTES, 'UTF-8'); ?></p>
+                <div class="d-flex gap-3 mt-3">
+                    <?php foreach ($company['social'] as $social): ?>
+                        <a class="text-white-50 hover-accent" href="<?= htmlspecialchars($social['url'], ENT_QUOTES, 'UTF-8'); ?>" aria-label="<?= htmlspecialchars($social['label'], ENT_QUOTES, 'UTF-8'); ?>">
+                            <i class="<?= htmlspecialchars($social['icon'], ENT_QUOTES, 'UTF-8'); ?>"></i>
+                        </a>
+                    <?php endforeach; ?>
                 </div>
             </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <h5 class="text-accent mb-3">Navegación</h5>
+                <ul class="list-unstyled text-white-50 mb-0">
+                    <?php foreach ($navigation['main'] as $item): ?>
+                        <li class="mb-2">
+                            <a class="text-white-50 hover-accent text-decoration-none" href="<?= htmlspecialchars(nav_url($item['route']), ENT_QUOTES, 'UTF-8'); ?>">
+                                <?= htmlspecialchars($item['label'], ENT_QUOTES, 'UTF-8'); ?>
+                            </a>
+                        </li>
+                    <?php endforeach; ?>
+                    <li><a class="text-white-50 hover-accent text-decoration-none" href="<?= htmlspecialchars(nav_url($navigation['account']['route']), ENT_QUOTES, 'UTF-8'); ?>"><?= htmlspecialchars($navigation['account']['label'], ENT_QUOTES, 'UTF-8'); ?></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <h5 class="text-accent mb-3">Contáctanos</h5>
+                <p class="text-white-50 mb-1"><i class="fas fa-map-marker-alt me-2 text-accent"></i><?= htmlspecialchars($company['contact']['address'], ENT_QUOTES, 'UTF-8'); ?></p>
+                <p class="text-white-50 mb-1"><i class="fas fa-phone me-2 text-accent"></i><?= htmlspecialchars($company['contact']['phone'], ENT_QUOTES, 'UTF-8'); ?></p>
+                <p class="text-white-50 mb-3"><i class="fas fa-envelope me-2 text-accent"></i><?= htmlspecialchars($company['contact']['email'], ENT_QUOTES, 'UTF-8'); ?></p>
+                <ul class="list-unstyled text-white-50 small mb-0">
+                    <?php foreach ($company['contact']['hours'] as $hour): ?>
+                        <li><?= htmlspecialchars($hour, ENT_QUOTES, 'UTF-8'); ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
         </div>
-        <hr class="bg-secondary-light mt-4 mb-3">
-        <div class="text-center text-secondary-light">
-            <p class="mb-0">© <?= date('Y'); ?> Importadora Textil Camila. Todos los derechos reservados.</p>
+        <hr class="border-secondary my-4">
+        <div class="text-center text-white-50 small">
+            © <?= date('Y'); ?> <?= htmlspecialchars($company['name'], ENT_QUOTES, 'UTF-8'); ?>. Todos los derechos reservados.
         </div>
     </div>
 </footer>
