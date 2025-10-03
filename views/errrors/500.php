@@ -1,5 +1,5 @@
 
-<section class="py-5 text-center">
+<section class="section-padding text-center">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">

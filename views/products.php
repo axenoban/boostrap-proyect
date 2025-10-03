@@ -9,7 +9,7 @@
     </div>
 </section>
 
-<section class="py-5 bg-light-gray" data-aos="fade-up">
+<section class="section-padding bg-light-gray" data-aos="fade-up">
     <div class="container">
         <div class="row g-4 align-items-center">
             <div class="col-lg-6" data-aos="fade-right">
@@ -41,7 +41,7 @@
 
 <?php require __DIR__ . '/partials/products-static.php'; ?>
 
-<section class="py-5 bg-white" data-aos="fade-up">
+<section class="section-padding bg-white" data-aos="fade-up">
     <div class="container">
         <h2 class="text-center display-5 fw-bold mb-5 text-primary-dark">¿Cómo hacemos tu reserva?</h2>
         <div class="row row-cols-1 row-cols-md-4 g-4">
@@ -85,7 +85,7 @@
     </div>
 </section>
 
-<section class="py-5" data-aos="fade-up">
+<section class="section-padding" data-aos="fade-up">
     <div class="container">
         <div class="row g-4 align-items-center">
             <div class="col-lg-6" data-aos="fade-right">
