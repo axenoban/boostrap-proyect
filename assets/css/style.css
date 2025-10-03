@@ -123,6 +123,32 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent !important;
 }
 
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.navbar-nav .nav-item {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .navbar-nav .nav-item {
+        width: auto;
+    }
+
+    .navbar-nav .nav-link {
+        padding-inline: 0.9rem;
+    }
+}
+
 .navbar-brand {
     font-weight: 700;
     font-size: 1.8rem;

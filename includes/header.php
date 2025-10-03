@@ -79,7 +79,7 @@ function isActive(?string $current, string $expected): string
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="navbarDropdownAccount">
                                 <li>
-                                    <a class="dropdown-item d-flex align-items-center gap-2 <?= isActive($activePage, 'client-login'); ?>" href="index.php?page=cliente-login">
+                                    <a class="dropdown-item d-flex align-items-center gap-2 <?= isActive($activePage, 'client-login'); ?>" href="index.php?page=client-login">
                                         <i class="fas fa-user text-accent"></i>
                                         Portal de Clientes
                                     </a>
